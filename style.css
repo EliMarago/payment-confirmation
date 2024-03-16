@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Asul:wght@400;700&display=swap");
+body {
+  background-color: rgb(204, 201, 201);
+}
+.box-container {
+  background-color: rgb(159, 157, 157);
+  width: 450px;
+  height: 700px;
+  border-radius: 20px 20px 20px 20px;
+  margin-top: 50px;
+  border: solid 3px rgb(66, 64, 64);
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.home {
+  margin-top: 10px;
+  margin-left: 30px;
+}
+.pay-icon {
+  width: 40px;
+  height: 40px;
+  float: right;
+  margin-top: 23px;
+  margin-right: 50px;
+}
+.head {
+  background-color: rgb(42, 42, 42);
+  border-radius: 15px 15px 0px 0px;
+  height: 70px;
+}
+.check-icon {
+  width: 130px;
+  height: 130px;
+  margin-left: 160px;
+  margin-top: 10px;
+}
+h3 {
+  color: white;
+  text-align: center;
+  font-size: 30px;
+  font-family: "Asul", serif;
+  font-weight: 800;
+}
+.text-1 {
+  color: rgb(67, 66, 66);
+  text-align: center;
+  margin-top: -20px;
+  font-family: "Asul", serif;
+}
+h4 {
+  color: rgb(255, 254, 254);
+  margin-left: 50px;
+  font-size: 19px;
+  font-weight: 300;
+  font-family: "Asul", serif;
+}
+.date,
+.payment,
+.method,
+.amount {
+  color: rgb(50, 49, 49);
+  margin-left: 50px;
+  margin-top: -23px;
+  font-family: "Asul", serif;
+}
+button {
+  border: none;
+  margin-left: 140px;
+  display: grid;
+  margin-top: 10px;
+  width: 190px;
+  padding: 8px;
+  cursor: pointer;
+  border-radius: 20px 20px 20px;
+  background-color: rgb(112, 111, 111);
+  color: white;
+  border: solid 2px rgb(42, 41, 41);
+  font-family: "Asul", serif;
+}
+.download {
+  margin-top: -16px;
+}
+.download:hover {
+  background-color: rgb(151, 149, 149);
+}
+
+.account {
+  background-color: rgb(50, 49, 49);
+}
+.account:hover {
+  background-color: rgb(90, 88, 88);
+}
